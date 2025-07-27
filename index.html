@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Krupesh Prajapati - Full Stack Developer</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%230ea5e9'/><text x='50%' y='50%' text-anchor='middle' dy='.35em' font-size='32' fill='white' font-family='Arial'>KP</text></svg>">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%230ea5e9'/><text x='50%' y='50%' text-anchor='middle' dy='.35em' font-size='32' fill='white' font-family='Arial'>KP</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -224,7 +225,7 @@
                 KP
             </div>
             <h1
-                class="text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+                class="text-4xl lg:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                 Krupesh Prajapati
             </h1>
             <p class="text-2xl text-blue-300 mb-6 font-medium">Full Stack Developer</p>
@@ -864,23 +865,23 @@
             });
         });
 
-        // Add typewriter effect to the title
-        document.addEventListener('DOMContentLoaded', function () {
-            const title = document.querySelector('h1');
-            const text = title.textContent;
-            title.textContent = '';
+        // // Add typewriter effect to the title
+        // document.addEventListener('DOMContentLoaded', function () {
+        //     const title = document.querySelector('h1');
+        //     const text = title.textContent;
+        //     title.textContent = '';
 
-            let i = 0;
-            const typeWriter = () => {
-                if (i < text.length) {
-                    title.textContent += text.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100);
-                }
-            };
+        //     let i = 0;
+        //     const typeWriter = () => {
+        //         if (i < text.length) {
+        //             title.textContent += text.charAt(i);
+        //             i++;
+        //             setTimeout(typeWriter, 50);
+        //         }
+        //     };
 
-            setTimeout(typeWriter, 1000);
-        });
+        //     typeWriter();
+        // });
     </script>
 </body>
 
